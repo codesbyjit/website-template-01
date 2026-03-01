@@ -3,22 +3,21 @@ import { Button } from "@/components/ui/button";
 
 export function Navbar() {
     return (
-        <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 md:px-12 py-6 bg-gradient-to-b from-black/60 to-transparent transition-all duration-300">
+        <nav className="fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 md:px-12 py-4 bg-gradient-to-b from-black/90 to-black/60 backdrop-blur-md border-b border-white/5 transition-all duration-300">
             {/* Logo */}
             <Link href="/" className="flex flex-col items-start group">
-                <span className="text-3xl font-serif text-white tracking-widest font-bold group-hover:text-primary transition-colors">MAI</span>
-                <span className="text-[10px] text-primary/90 tracking-[0.4em] uppercase font-light pl-0.5 text-primary">Real Estate</span>
+                <span className="text-3xl font-serif text-white tracking-widest font-bold group-hover:text-primary transition-colors">WOODHOUSE</span>
+                <span className="text-[10px] text-primary/90 tracking-[0.4em] uppercase font-light pl-0.5">REALTY</span>
             </Link>
 
             {/* Links - Desktop */}
             <div className="hidden lg:flex items-center gap-8 text-sm font-light text-white tracking-wider">
                 <Link href="/" className="hover:text-primary transition-colors">Home</Link>
                 <Link href="#about" className="hover:text-primary transition-colors">About</Link>
-                <Link href="#listings" className="hover:text-primary transition-colors">Listings</Link>
-                <Link href="#search" className="hover:text-primary transition-colors">Proper Search</Link>
-                <Link href="#buy" className="hover:text-primary transition-colors">Buy</Link>
-                <Link href="#sell" className="hover:text-primary transition-colors">Sell</Link>
-                <Link href="#blog" className="hover:text-primary transition-colors">Blog</Link>
+                <Link href="#services" className="hover:text-primary transition-colors">Services</Link>
+                <Link href="#why-us" className="hover:text-primary transition-colors">Why Us</Link>
+                <Link href="#agents" className="hover:text-primary transition-colors">Agents</Link>
+                <Link href="#contact" className="hover:text-primary transition-colors">Contact</Link>
             </div>
 
             {/* Action */}

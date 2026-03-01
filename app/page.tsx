@@ -4,10 +4,10 @@ import { SplitRealtorStory } from "@/components/ui/split-realtor-story";
 import Achievement from "@/components/ui/achievement";
 import FeaturedListings from "@/components/FeaturedListings";
 import FeaturedAreas from "@/components/FeaturedAreas";
-import ServicesSection from "@/components/ServicesSection";
+// import ServicesSection from "@/components/ServicesSection";
 import VideoTestimonials from "@/components/VideoTestimonials";
+import AgentRecruitment from "@/components/AgentRecruitment";
 import Testimonials from "@/components/testimonials";
-import Link from "next/link";
 import FAQ from "@/components/FAQ";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
@@ -18,11 +18,12 @@ export default function Home() {
       <Navbar />
       <Hero />
       <SplitRealtorStory />
-      <ServicesSection />
+      {/* <ServicesSection /> */}
       <Achievement />
       <FeaturedListings />
       <FeaturedAreas />
       <VideoTestimonials />
+      <AgentRecruitment />
       <FAQ />
       <Testimonials />
       <ContactSection />

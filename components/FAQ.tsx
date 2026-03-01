@@ -7,34 +7,34 @@ import { cn } from "@/lib/utils";
 
 const faqs = [
     {
-        question: "What is the current real estate market trend in Vancouver, BC?",
+        question: "What areas does Woodhouse Realty serve?",
         answer:
-            "As of now, Vancouver's real estate market experiences a dynamic blend of demand and supply, characterized by a slight increase in home prices due to limited inventory. Communities like Kitsilano and Mount Pleasant continue to attract buyers with their vibrant atmospheres and proximity to amenities.",
+            "Woodhouse Realty serves clients across British Columbia, with particular expertise in Vancouver, Surrey, Burnaby, Richmond, and the surrounding Lower Mainland communities.",
     },
     {
-        question: "How do I find the best real estate agent in Vancouver, BC?",
+        question: "How does Woodhouse Realty differentiate from other brokerages?",
         answer:
-            "To find the best real estate agent in Vancouver, BC, consider reaching out to colleagues, checking online reviews, and asking potential agents about their experience in specific neighborhoods. An expert like Denise Mai can provide tailored insights based on extensive market knowledge and client satisfaction.",
+            "We combine local market expertise with modern technology and strategic marketing to deliver seamless buying and selling experiences. Our client-first approach ensures transparent communication and dedicated support from listing to closing.",
     },
     {
-        question: "What neighborhoods in Vancouver, BC, are best for first-time homebuyers?",
+        question: "What services do you offer for home buyers?",
         answer:
-            "Neighborhoods such as East Vancouver, specifically areas like Commercial Drive and Main Street, offer a mix of affordability and community charm. These areas attract first-time buyers with their unique character and diverse amenities.",
+            "We offer comprehensive residential buying services including property search, market analysis, negotiation expertise, and guidance through every step of the purchase process.",
     },
     {
-        question: "What should I know before buying a home in Vancouver, BC?",
+        question: "How do you price properties for sale?",
         answer:
-            "Before buying in Vancouver, it's crucial to understand the varying property guidelines, the importance of hiring a seasoned real estate agent, and upcoming developments that could affect property values. An experienced agent can provide insight into neighborhoods that align with your needs and budget.",
+            "We leverage real-time market data, pricing analytics, and neighborhood trends to ensure your property is priced competitively to attract qualified buyers while maximizing your return.",
     },
     {
-        question: "How does the process of selling a home in Vancouver, BC, work?",
+        question: "Do you work with real estate investors?",
         answer:
-            "Selling a home in Vancouver typically involves preparing your property for the market, pricing it competitively based on recent sales, and leveraging local marketing expertise for maximum exposure. Partnering with a knowledgeable realtor like Denise Mai can streamline this process.",
+            "Yes, we provide investment property advisory services, helping investors identify opportunities, analyze potential returns, and build profitable portfolios.",
     },
     {
-        question: "Is it a good time to invest in Vancouver real estate?",
+        question: "How can I schedule a consultation?",
         answer:
-            "While market conditions can fluctuate, investing in Vancouver real estate often proves beneficial due to its historic appreciation rates. Areas that are undergoing revitalization or development tend to yield promising returns in the long run.",
+            "Simply contact us through our website or give us a call. We offer free property consultations to discuss your real estate goals and create a customized plan.",
     },
 ];
 

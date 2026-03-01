@@ -11,10 +11,10 @@ export default function Footer() {
                     {/* Column 1: Bio */}
                     <div className="space-y-6">
                         <h3 className="text-xl font-serif font-bold text-primary">
-                            Meet Denise Mai PREC*
+                            Woodhouse Realty
                         </h3>
                         <p className="text-white/60 text-sm leading-relaxed font-light">
-                            Denise Mai is a top real estate expert in Greater Vancouver and Burnaby, BC, celebrated for elite accolades including Top 1% and Medallion Club honors. Trusted for exceptional results, she’s recognized as one of the best Realtors in the region and beyond.
+                            A modern real estate brokerage committed to delivering strategy, results, and exceptional client service across British Columbia.
                         </p>
                     </div>
 
@@ -27,17 +27,20 @@ export default function Footer() {
                             <Link href="#" className="text-white/70 hover:text-primary transition-colors text-sm">
                                 Home
                             </Link>
-                            <Link href="#" className="text-white/70 hover:text-primary transition-colors text-sm">
-                                About Denise
+                            <Link href="#about" className="text-white/70 hover:text-primary transition-colors text-sm">
+                                About Us
                             </Link>
-                            <Link href="#" className="text-white/70 hover:text-primary transition-colors text-sm">
-                                Buyers
+                            <Link href="#services" className="text-white/70 hover:text-primary transition-colors text-sm">
+                                Services
                             </Link>
-                            <Link href="#" className="text-white/70 hover:text-primary transition-colors text-sm">
-                                Sellers
+                            <Link href="#why-us" className="text-white/70 hover:text-primary transition-colors text-sm">
+                                Why Choose Us
                             </Link>
-                            <Link href="#" className="text-white/70 hover:text-primary transition-colors text-sm">
-                                Active Listings
+                            <Link href="#agents" className="text-white/70 hover:text-primary transition-colors text-sm">
+                                For Agents
+                            </Link>
+                            <Link href="#contact" className="text-white/70 hover:text-primary transition-colors text-sm">
+                                Contact
                             </Link>
                         </nav>
                     </div>
@@ -49,33 +52,27 @@ export default function Footer() {
                         </h3>
                         <div className="space-y-4 text-sm text-white/70 font-light">
                             <div>
-                                <strong className="block text-white font-medium mb-1">EXP REALTY</strong>
-                                <p>License #: 160106</p>
+                                <strong className="block text-white font-medium mb-1">WOODHOUSE REALTY</strong>
+                                <p>Licensed Real Estate Brokerage</p>
                             </div>
-                            <p>701 W Georgia St #1500, Vancouver, BC, V6B 1H4</p>
+                            <p>Serving Vancouver, Surrey, Burnaby, Richmond, and BC</p>
                             <div className="space-y-1">
                                 <p>
                                     <span className="text-white/40 uppercase text-xs tracking-wider mr-2">Phone</span>
-                                    778-858-0996
+                                    (604) 555-0100
                                 </p>
                                 <p>
-                                    <span className="text-white/40 uppercase text-xs tracking-wider mr-2">Office</span>
-                                    778-743-8188
+                                    <span className="text-white/40 uppercase text-xs tracking-wider mr-2">Email</span>
+                                    info@woodhouserealty.ca
                                 </p>
                             </div>
-                            <a
-                                href="mailto:denise@mairealestategroup.com"
-                                className="block text-primary hover:underline mt-2"
-                            >
-                                denise@mairealestategroup.com
-                            </a>
                         </div>
                     </div>
 
                     {/* Column 4: Social */}
                     <div className="space-y-6">
                         <h3 className="text-sm font-medium tracking-widest uppercase text-white/40">
-                            Social
+                            Follow Us
                         </h3>
                         <div className="flex space-x-4">
                             <Link href="#" className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-white/60 hover:text-primary hover:border-primary transition-all duration-300">
@@ -96,11 +93,10 @@ export default function Footer() {
 
                 {/* Bottom Bar */}
                 <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-white/30 font-light">
-                    <p>© 2025 Denise Mai Real Estate. All rights reserved.</p>
+                    <p>© 2025 Woodhouse Realty. All rights reserved.</p>
                     <div className="flex space-x-6 mt-4 md:mt-0">
                         <Link href="#" className="hover:text-white">Privacy Policy</Link>
                         <Link href="#" className="hover:text-white">Terms of Service</Link>
-                        <Link href="#" className="hover:text-white">Cookie Policy</Link>
                     </div>
                 </div>
             </div>

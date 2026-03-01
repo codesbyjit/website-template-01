@@ -2,33 +2,33 @@ export default function VideoTestimonials() {
     const videos = [
         {
             id: "video-1",
-            title: "Behind the Scenes of our 3 bedroom condo video shoot",
-            embedUrl: "https://www.youtube.com/embed/6_y-zZ8WsEk",
-            type: "behind-the-scenes"
+            title: "Downpayment Requirements in Canada",
+            embedUrl: "https://www.youtube.com/embed/_seVFGbcTuE",
+            type: "agent-talk"
         },
         {
             id: "video-2",
-            title: "Denise Mai's Happy Seller Testimonial!!!",
-            embedUrl: "https://www.youtube.com/embed/FQvTBrBKrvc",
-            type: "seller-testimonial"
+            title: "$4,000 Renovation = $40,000 Difference",
+            embedUrl: "https://www.youtube.com/embed/m3bze5M_WUA",
+            type: "success-story"
         },
         {
             id: "video-3",
-            title: "Testimonial Denise Mai's Sellers",
-            embedUrl: "https://www.youtube.com/embed/XbDcwnt5h8Y",
-            type: "seller-testimonial"
+            title: "New Member Orientation",
+            embedUrl: "https://www.youtube.com/embed/PCm3oVtP1sQ",
+            type: "team"
         },
         {
             id: "video-4",
-            title: "Testimonial Denise Mai's Happy Sellers & Buyers",
-            embedUrl: "https://www.youtube.com/embed/yFO35ndMGio",
-            type: "seller-buyer-testimonial"
+            title: "Agent Introduction: Arpit Sirohi",
+            embedUrl: "https://www.youtube.com/embed/bhvlL7Y6ioI",
+            type: "agent-intro"
         },
         {
             id: "video-5",
-            title: "Testimonial Denise Mai's Happy Sellers & Buyers",
-            embedUrl: "https://www.youtube.com/embed/k6spfp3xaSM",
-            type: "seller-buyer-testimonial"
+            title: "February Sales Meeting Highlights",
+            embedUrl: "https://www.youtube.com/embed/3Y5-o6Bndqw",
+            type: "team"
         },
     ]
 
@@ -49,12 +49,6 @@ export default function VideoTestimonials() {
                 {/* Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
                     {videos.map((video, idx) => {
-                        // Logic for 6-column grid:
-                        // Row 1: Items 0, 1, 2 take 2 cols each (Full width: 2+2+2=6)
-                        // Row 2: Items 3, 4 need to be centered under the gaps of Row 1.
-                        // Item 3 starts at col 2 (offset by 1) -> spans 2 (ends at 3). Centers between Item 0 & 1.
-                        // Item 4 starts at col 4 (offset by 1 from center) -> spans 2. Centers between Item 1 & 2.
-
                         let lgClass = "lg:col-span-2"; // Default for first row
                         if (idx === 3) lgClass = "lg:col-start-2 lg:col-span-2";
                         if (idx === 4) lgClass = "lg:col-start-4 lg:col-span-2";

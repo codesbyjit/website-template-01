@@ -13,8 +13,8 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Mai Real Estate | Exclusive Portfolio",
-  description: "Top 1% Realtor in Greater Vancouver. Powerful Luxury Marketing.",
+  title: "Woodhouse Realty | Modern Real Estate Brokerage BC",
+  description: "A modern real estate brokerage delivering strategy, results, and exceptional client service across British Columbia.",
 };
 
 export default function RootLayout({
